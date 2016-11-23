@@ -1,6 +1,6 @@
 # Fedora Latest Ansible Test Image
 
-[![Docker Automated build](https://img.shields.io/docker/automated/v0rts/docker-fedoraLatest-ansible.svg?maxAge=Latest92000)](https://hub.docker.com/r/v0rts/docker-fedoraLatest-ansible/)
+[![Docker Automated build](https://img.shields.io/docker/automated/v0rts/docker-fedora-latest-ansible.svg?maxAge=Latest92000)](https://hub.docker.com/r/v0rts/docker-fedora-latest-ansible/)
 
 Fedora Latest Docker container for Ansible playbook and role testing.
 
@@ -19,7 +19,7 @@ This image is built on Docker Hub automatically any time the upstream OS contain
       ```
   4. Execute `docker build` 
       ```shell 
-      $ docker build -t fedoraLatest-ansible-custom
+      $ docker build -t fedora-latest-ansible-custom
       ```
 
 ## How to Use
@@ -29,21 +29,21 @@ This image is built on Docker Hub automatically any time the upstream OS contain
   1. [Install Docker](https://docs.docker.com/engine/installation/).
   2. Pull image from Docker Hub: 
     ```shell 
-      $ docker pull v0rts/docker-fedoraLatest-ansible:latest
+      $ docker pull v0rts/docker-fedora-latest-ansible:latest
     ```
   3. Run a container from the image
     ```shell 
-      $ docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro v0rts/docker-fedoraLatest-ansible:latest /usr/lib/systemd/systemd
+      $ docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro v0rts/docker-fedora-latest-ansible:latest /usr/lib/systemd/systemd
     ```
 ### Image built from locally
   
   1. Pull using tag from build step
     ```shell 
-      $ docker pull fedoraLatest-ansible-custom
+      $ docker pull fedora-latest-ansible-custom
     ```
   2. Run a container from the image
     ```shell 
-      $ docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro v0rts/docker-fedoraLatest-ansible:latest /usr/lib/systemd/systemd
+      $ docker run --detach --privileged --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro v0rts/docker-fedora-latest-ansible:latest /usr/lib/systemd/systemd
     ```
 ## Use Ansible inside the container
 
