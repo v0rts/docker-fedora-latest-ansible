@@ -1,6 +1,7 @@
 # Fedora Latest Ansible Test Image
 
 [![Docker Automated build](https://img.shields.io/docker/automated/v0rts/docker-fedora-latest-ansible.svg?maxAge=Latest92000)](https://hub.docker.com/r/v0rts/docker-fedora-latest-ansible/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fv0rts%2Fdocker-fedora-latest-ansible.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fv0rts%2Fdocker-fedora-latest-ansible?ref=badge_shield)
 
 Fedora Latest Docker container for Ansible playbook and role testing.
 
@@ -58,3 +59,7 @@ This image is for testing purposes only!!
 ## Author
 
 Created in 2016 by Chad Sailer
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fv0rts%2Fdocker-fedora-latest-ansible.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fv0rts%2Fdocker-fedora-latest-ansible?ref=badge_large)
